@@ -1,0 +1,51 @@
+{% extends 'shop/basic.html' %}
+
+{% block title%} {% endblock %}
+{% block body %}
+
+<head>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+  <style>
+    .contain {
+      padding: 50px 0px;
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="contain">
+    <h4>Give Review Of Product</h4>
+    <div class="row">
+      <form class="col s12" method="POST" action="">{% csrf_token %}
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" name="data" class="materialize-textarea"></textarea>
+            <label for="textarea1">What Is Your Review ?</label>
+          </div>
+        </div>
+
+        <button class="waves-effect waves-light btn red darken-3" type="submit">Add..</button>
+      </form>
+    </div>
+
+    <br>
+
+    <a class="waves-effect waves-light btn green" href="/shop/products/{{product.id}}">Home..</a>
+
+  </div>
+</body>
+
+</html>
+{% endblock %}
