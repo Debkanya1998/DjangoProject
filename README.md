@@ -1,5 +1,5 @@
 
-# MyFirstApp
+# DjangoProject
 
 This project was generated with Python Django Framework [Version 2.1.5](https://docs.djangoproject.com/en/3.0/releases/2.1.5/)
 
