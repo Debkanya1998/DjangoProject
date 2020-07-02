@@ -2,7 +2,7 @@ asgiref==3.2.3
 certifi==2019.11.28
 chardet==3.0.4
 checksum==1.0.4
-Django==2.1.5
+Django==2.2.13
 docutils==0.15.2
 idna==2.8
 jmespath==0.10.0
