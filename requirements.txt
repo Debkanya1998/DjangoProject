@@ -16,7 +16,7 @@ requests==2.22.0
 s3transfer==0.3.3
 six==1.15.0
 sqlparse==0.3.0
-urllib3==1.25.8
+urllib3==1.26.5
 virtualenv==16.7.9
 virtualenv-clone==0.5.4
 virtualenvwrapper-win==1.2.5
