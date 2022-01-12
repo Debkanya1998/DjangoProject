@@ -8,7 +8,7 @@ idna==2.8
 jmespath==0.10.0
 mysqlclient==1.4.6
 Pillow==7.0.0
-pipenv==2020.6.2
+pipenv==2022.1.8
 pycryptodome==3.9.6
 python-dateutil==2.8.1
 pytz==2019.3
